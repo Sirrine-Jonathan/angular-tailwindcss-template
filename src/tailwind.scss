@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+.heroRow {
+    @apply flex flex-row bg-gray-500 p-2 m-2;
+}
+
+.heroRow:hover {
+    @apply bg-gray-200 cursor-pointer;
+}
+
+.heroRow span {
+    @apply pr-2;
+}
+
+@tailwind utilities;
