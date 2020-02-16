@@ -1,16 +1,20 @@
+/* https://nerdcave.com/tailwind-cheat-sheet */
+
 @tailwind base;
+
 @tailwind components;
 
-.heroRow {
-    @apply flex flex-row bg-gray-500 p-2 m-2;
+/* 
+    Add component extractions here 
+    https://tailwindcss.com/docs/extracting-components/
+*/
+
+.titleOne {
+    @apply flex flex-row bg-gray-200 p-5 text-3xl;
 }
 
-.heroRow:hover {
-    @apply bg-gray-200 cursor-pointer;
-}
-
-.heroRow span {
-    @apply pr-2;
+.titleTwo {
+    @apply flex flex-row bg-red-200 p-5 text-3xl justify-center;
 }
 
 @tailwind utilities;
